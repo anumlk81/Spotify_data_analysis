@@ -1,0 +1,39 @@
+======================================================================
+SPOTIFY POPULARITY PREDICTION: MODEL REPORT
+======================================================================
+
+OVERALL PERFORMANCE:
+Accuracy:  0.9720
+Precision: 0.9313
+Recall:    0.9705
+F1 Score:  0.9505
+ROC-AUC:   0.9974
+
+DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+   Unpopular       0.99      0.97      0.98      1242
+     Popular       0.93      0.97      0.95       475
+
+    accuracy                           0.97      1717
+   macro avg       0.96      0.97      0.97      1717
+weighted avg       0.97      0.97      0.97      1717
+
+======================================================================
+CROSS-VALIDATION RESULTS
+======================================================================
+Stratified K-Fold Mean F1:       0.9495
+Stratified Group K-Fold Mean F1: 0.9286
+
+FEATURE IMPORTANCE RANKING:
+           Feature  Importance
+               PC1    0.260910
+               PC2    0.225007
+ artist_popularity    0.156165
+               PC4    0.140833
+  artist_followers    0.078269
+      track_number    0.070406
+track_duration_min    0.035097
+               PC3    0.033314
+
+Report generated successfully.
