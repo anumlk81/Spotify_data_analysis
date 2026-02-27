@@ -1,3 +1,11 @@
+"""
+song popularity classification: predicts whether a a track will be popular or unpopular based on other threshold 
+
+xgboost: handles class imbalance well: scale_pos_weight
+        superior gradient boosting 
+        feature importance 
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
